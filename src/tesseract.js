@@ -3,6 +3,7 @@ document.getElementById('check').onclick = function (e) {
 
   var tessOptions = {
     lang: 'jpn',
+    tessedit_pageseg_mode: 7,
     tessedit_char_whitelist: 'ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ'
   }
 
@@ -15,4 +16,4 @@ document.getElementById('check').onclick = function (e) {
     });
 }
 
-console.log('Current commit is:', 'add logging check for github pages');
+console.log('Current commit is:', 'set tesseract to single char only');
