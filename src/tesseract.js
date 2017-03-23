@@ -15,7 +15,4 @@ document.getElementById('check').onclick = function (e) {
     });
 }
 
-// Tesseract.recognize(myImage)
-// .then(function(result){
-//     console.log(result)
-// })
+console.log('Current commit is:', 'add logging check for github pages');
