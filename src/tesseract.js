@@ -1,6 +1,6 @@
 document.getElementById('check').onclick = function (e) {
   var context = document.getElementById('canvas').getContext('2d');
-  Tesseract.recognize(context)
+  Tesseract.recognize(context, 'jpn')
     .catch(function (error) {
       console.log(error);
     })
